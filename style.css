@@ -33,13 +33,72 @@
 } 
 
 body { 
-    background-color: var(--light-blue-100)
+    background-color: var(--light-blue-100);
 }
 
 .general-container {
     display: flex;
 }
 
+.logo-container {
+    padding: 40px 0 0 40px;
+}
+
 .middle-container {
-    width: 60%;
+    width: 680px;
+    margin: 0 40px 0 40px;
+}
+
+.textarea-encripter-container {
+    padding: 168px 103px 635px 0;
+}
+
+.textarea-encripter { 
+    width: 577px;
+    height: 48px;
+    font-size: 32px;
+    line-break: 48px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background-color: var(--light-blue-100);
+    color: var(--dark-blue-300);
+}::placeholder {
+    color: var(--dark-blue-300);
+}
+
+.buttons-paragraph-container {
+    margin-bottom: 72px;
+} 
+
+.buttons-paragraph-container p {
+    font-size: 12px;
+    color: var(--Gray-400);
+    margin-bottom: 16px;
+} 
+
+.buttons-container { 
+    display: flex;
+}
+
+.buttons-container button {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons-container button:first-child{
+    color: white;
+    background-color: var(--dark-blue-300);
+    border-style: none;
+    margin-right: 24px;
+    padding: 0;
+}
+
+.buttons-container button:last-child{
+    color: var(--dark-blue-300);
+    background-color: var(--light-blue-300);
+    border: solid 1px;
+    padding: 0;
 }
