@@ -1,0 +1,45 @@
+:root{
+    /*Blue colors*/
+
+    /*Dark*/
+    --dark-blue-100: rgba(96, 158, 212, 1);
+    --dark-blue-200: rgba(53, 110, 169, 1);
+    --dark-blue-300: rgba(10, 56, 113, 1);
+    --dark-blue-400: rgba(7, 43, 97, 1);
+    --dark-blue-500: rgba(5, 32, 81, 1);
+
+    /*Light*/
+    --light-blue-100: rgba(243, 245, 252, 1);
+    --light-blue-200: rgba(239, 241, 250, 1);
+    --light-blue-300: rgba(233, 236, 248, 1);
+    --light-blue-400: rgba(170, 178, 213, 1);
+    --light-blue-500: rgba(117, 127, 178, 1);
+
+    /*Gray colors*/
+
+    /*Gray*/
+    --Gray-100: rgba(206, 212, 218, 1);
+    --Gray-200: rgba(173, 181, 189, 1);
+    --Gray-300: rgba(134, 142, 150, 1);
+    --Gray-400: rgba(73, 80, 87, 1);
+    --Gray-500: rgba(52, 58, 64, 1);
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+} 
+
+body { 
+    background-color: var(--light-blue-100)
+}
+
+.general-container {
+    display: flex;
+}
+
+.middle-container {
+    width: 60%;
+}
