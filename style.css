@@ -77,7 +77,7 @@ body {
 } 
 
 .buttons-container { 
-    display: flex;
+   display: flex;
 }
 
 .buttons-container button {
