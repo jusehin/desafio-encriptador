@@ -49,13 +49,13 @@ body {
     margin: 0 40px 0 40px;
 }
 
-.textarea-encripter-container {
-    padding: 168px 103px 635px 0;
+.textarea-encrypter-container {
+    padding: 168px 103px 35px 0;
 }
 
-.textarea-encripter { 
-    width: 577px;
-    height: 48px;
+.textarea-encrypter { 
+    width: 100%;
+    height: 600px;
     font-size: 32px;
     line-break: 48px;
     font-family: "Inter", sans-serif;
@@ -80,7 +80,7 @@ body {
    display: flex;
 }
 
-.buttons-container button {
+button {
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -93,12 +93,94 @@ body {
     background-color: var(--dark-blue-300);
     border-style: none;
     margin-right: 24px;
-    padding: 0;
 }
 
 .buttons-container button:last-child{
     color: var(--dark-blue-300);
     background-color: var(--light-blue-300);
     border: solid 1px;
-    padding: 0;
+}
+
+.desencrypter-textarea-container {
+    height: 944px;
+    width: 400px;
+    margin: 40px;
+    box-shadow: 0px 20px 20px -10px var(--Gray-100);
+    background-color: white;
+    border-radius: 24px;
+    display: none;
+}
+
+.desencrypter-textarea-container textarea { 
+    Width: 336px;
+    height: 781px ;
+    margin: 32px 32px 0 32px;
+    border-style: none;
+    font: inherit;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--Gray-400);
+}::placeholder {
+    color: var(--Gray-400);
+}
+
+.desencrypter-textarea-container button {
+    color: var(--dark-blue-300);
+    background-color: white;
+    border: solid 1px;
+    margin: 32px;
+}
+
+.image-text-container {
+    height: 944px;
+    width: 400px;
+    margin: 40px;
+    box-shadow: 0px 20px 20px -10px var(--Gray-100);
+    background-color: white;
+    border-radius: 24px;
+}
+
+.image-text-container img {
+    margin: 243px 32px 32px 32px;
+}
+
+.image-text-container-text{
+    width: 336px;
+    height: 122px;
+    margin: 0 32px 307px 32px;
+}
+
+.image-text-container-text p:first-child{
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    color: var(--Gray-500)
+}
+
+.image-text-container-text p:last-child{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--Gray-400);
+    margin-top: 16px;
+}
+
+footer {
+    height: 50px;
+    background-color: var(--Gray-500);
+}
+
+footer p {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 14px;
+    color: white;
 }

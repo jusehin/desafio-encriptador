@@ -18,41 +18,44 @@
         </div>
     
         <div class="middle-container">
-            <div class="textarea-encripter-container">
-                <textarea class="textarea-encripter" cols="70" rows="1" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="textarea-encrypter-container">
+                <textarea id="encrypter-textarea" class="textarea-encrypter" placeholder="Ingrese el texto aquí"></textarea>
             </div>
             
             <div class="buttons-paragraph-container">
                 <p>&#x26A0 Solo letras minúsculas y sin acentos</p>
                 <div class="buttons-container">
-                    <button>
+                    <button id="encrypterButton" onclick="encrypter()">
                         Encriptar
                     </button>
-                    <button>
+                    <button id="desencrypterButton" onclick="decrypter()">
                         Desencriptar
                     </button>
                 </div>
             </div>
         </div>
     
-        <div class="desencripter-container">
-            <div class="desencripter-textarea-container">
-                <textarea name="" id="" cols="45" rows="10"></textarea>
-                <button>Copiar</button>
+        <div class="desencrypter-container">
+            <div id="desencrypter-textarea-container" class="desencrypter-textarea-container">
+                <textarea name="" id="desencrypter-textarea" cols="45" rows="10" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas."></textarea>
+                <button onclick="copiarContenido()">Copiar</button>
             </div>
             
             
-            <div class="image-text-container">
+            <div id= "image-text-container" class="image-text-container">
                 <img src="imagenes/Muneco.png" alt="">
-                <p>Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                <div class="image-text-container-text">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                
             </div>
         </div>
     
     </main>
 
     <footer>
-        Encriptador realizado por: Juan Sebastián Hincapié González
+        <p>Encriptador realizado por: Juan Sebastián Hincapié González</p>
     </footer>
     
     <script src="app.js"></script>
